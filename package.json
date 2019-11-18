@@ -1,0 +1,27 @@
+{
+  "name": "sketchel.js",
+  "version": "1.0.0",
+  "description": "The first API wrapper for sketchel!",
+  "main": "index.js",
+  "scripts": {
+    "test": "node index.js"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/kashima-dot-com/sketchel.js.git"
+  },
+  "keywords": [
+    "sketchel",
+    "api",
+    "wrapper"
+  ],
+  "author": "kashima-dot-com",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/kashima-dot-com/sketchel.js/issues"
+  },
+  "homepage": "https://github.com/kashima-dot-com/sketchel.js#readme",
+  "dependencies": {
+    "node-fetch": "^2.6.0"
+  }
+}
