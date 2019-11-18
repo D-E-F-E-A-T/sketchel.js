@@ -1,6 +1,6 @@
 {
   "name": "sketchel.js",
-  "version": "1.0.0",
+  "version": "1.0.1",
   "description": "The first API wrapper for sketchel!",
   "main": "index.js",
   "scripts": {
