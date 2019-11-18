@@ -8,3 +8,6 @@ const sketchel = require('sketchel.js')
 const avatar = require('fs').createWriteStream('./avatar.png')
 sketchel.getAvatar('nekomikoreimu').pipe(avatar)
 ```
+
+# How to install?
+`npm i sketchel.js`
