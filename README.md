@@ -8,9 +8,10 @@ const sketchel = require('sketchel.js')
 const avatar = require('fs').createWriteStream('./avatar.png')
 sketchel.getAvatar('nekomikoreimu').then(body => body.pipe(avatar))
 ```
+
 ### Get user
 ```js
-const sketchel = require('./index')
+const sketchel = require('sketchel.js')
 sketchel.getUser('nekomikoreimu').then(body => console.log(body))
 ```
 
